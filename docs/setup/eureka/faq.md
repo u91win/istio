@@ -2,7 +2,7 @@
 
 * _我的应用程序不能正常工作，我怎么进行故障排查？_
 
-  请确保所有的必要的容器运行正常：etcd，istio-apiserver，registrator，istio-pilot。如果其中哪个没有运行，你可以使用  `docker ps -a`  找到 {containerID} ，然后使用  `docker logs {containerID}` 去查看该容器的日志。
+  请确保所有的必要的容器运行正常：etcd，istio-apiserver，eureka ， registrator，istio-pilot。如果其中哪个没有运行，你可以使用  `docker ps -a`  找到 {containerID} ，然后使用  `docker logs {containerID}` 去查看该容器的日志。
 
 * _最后我如何通过 `istioctl`  重置上下文（context）？_
 
